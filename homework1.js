@@ -58,3 +58,18 @@ console.log(typeof myLastName);
 
 console.log(typeof numberOfKids);
 console.log(typeof wifeName);
+
+// Task 8
+
+const secondsInMinute = 60;
+const minutesInHour = 60;
+const hoursInDay = 24;
+const daysInMonth = 30;
+
+const secondsInHour = secondsInMinute * minutesInHour;
+const secondsInDay = secondsInMinute * minutesInHour * hoursInDay;
+const secondsInMonth = secondsInMinute * minutesInHour * hoursInDay * daysInMonth;
+
+console.log('One hour has:' + ' ' + secondsInHour + ' ' + 'seconds');
+console.log('One day has:' + ' ' + secondsInDay + ' ' + 'seconds');
+console.log('One month has:' + ' ' + secondsInMonth + ' ' + 'seconds');
