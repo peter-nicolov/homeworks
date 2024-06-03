@@ -116,7 +116,6 @@
 // };
 
 // Task 6
-// B)
 
 function isValidNumber(value) {
     return !isNaN(value) && value > 0;
