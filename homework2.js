@@ -7,24 +7,16 @@
 // console.log(res1); // "12"
 // console.log(typeof res1); // "string"
 
-// let x = 'true';
-// let y = 2;
-// let res2 = x + y; // Add code is required use variables x and y
+// let res2 = Boolean(x) + `${y}`; // Add code is required use variables x and y
 
 // console.log(res2); // "true2"
 // console.log(typeof res2); // "string"
 
-// let x = 1;
-// let y = 2;
-// let res3 = x < y; // Add code is required use variables x and y
-
+// let res3 = Boolean(x < y); // Add code is required use variables x and y
 // console.log(res3); // true
 // console.log(typeof res3); // "boolean"
 
-// let x = 1;
-// let y = 'string';
-// let res4 = x * y; // Add code is required use variables x and y
-
+// let res4 = parseInt() * y; // Add code is required use variables x and y
 // console.log(res4); // NaN
 // console.log(typeof res4); // "number"
 
