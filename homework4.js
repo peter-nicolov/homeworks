@@ -1,32 +1,33 @@
 // Task 1
 
-// function calcRectangleArea (width, height){
+function calcRectangleArea (width, height){
 
-//     if (width != +width){
-//     throw new TypeError ('The width must be a numeric value.');
-//     }
-//     if (height != +height){
-//         throw new TypeError ('The height must be a numeric value.');
-//     }
-//     return width * height;
-// }
+    if (typeof width !== 'number' || isNaN(width)){
+    throw new TypeError ('The width must be a numeric value.');
+    }
+    if (typeof height !== 'number' || isNaN(height)){
+        throw new TypeError ('The height must be a numeric value.');
+    }
+    return width * height;
+}
 
-// function alerts(){
-//     try{
-//         let width = parseFloat(prompt('Enter width value'));
-//         let height = parseFloat(prompt('Enter height value'));
+function alerts(){
+    try{
 
-//         let area = calcRectangleArea(width, height);
+        let width = parseFloat (prompt('Enter width value'));
+        let height = parseFloat (prompt('Enter height value'));
 
-//         alert(`The area of the rectangle is: ${area}`);
+        let area = calcRectangleArea(width, height);
 
-//     } catch (error) {
+        alert(`The area of the rectangle is: ${area}`);
 
-//         alert(`${error.name}: ${error.message}`);
-//     }
-// }
+    } catch (error) {
 
-// alerts();
+        alert(`${error.name}: ${error.message}`);
+    }
+}
+
+alerts();
 
 // Task 2
 
