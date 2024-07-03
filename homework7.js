@@ -87,6 +87,3 @@
 // }
 
 // window.addEventListener('resize', updateSizeDisplay);
-
-// Task 7
-
