@@ -108,35 +108,36 @@
 // };
 
 // Task 6
+// B)
 
-function isValidNumber(value) {
-    return !isNaN(value) && value > 0;
-}
+// function isValidNumber(value) {
+//     return !isNaN(value) && value > 0;
+// }
 
-const sideA = parseFloat (prompt('Enter value for side A:'));
-const sideB = parseFloat (prompt('Enter value for side B:'));
-const sideC = parseFloat (prompt('Enter value for side C:'));
+// const sideA = parseFloat (prompt('Enter value for side A:'));
+// const sideB = parseFloat (prompt('Enter value for side B:'));
+// const sideC = parseFloat (prompt('Enter value for side C:'));
 
-if (!isValidNumber(sideA) || !isValidNumber(sideB) || !isValidNumber(sideC)) {
-    console.log("Incorrect data");
-} else {
+// if (!isValidNumber(sideA) || !isValidNumber(sideB) || !isValidNumber(sideC)) {
+//     console.log("Incorrect data");
+// } else {
 
-    const s = (sideA + sideB + sideC) / 2;
-    const area = Math.sqrt(s * (s - sideA) * (s - sideB) * (s - sideC));
+//     const s = (sideA + sideB + sideC) / 2;
+//     const area = Math.sqrt(s * (s - sideA) * (s - sideB) * (s - sideC));
 
-    if (isNaN(area) || area <= 0) {
-        console.log("Incorrect data");
-    } else {
-        console.log(`Area of the triangle: ${area.toFixed(3)}`);
+//     if (isNaN(area) || area <= 0) {
+//         console.log("Incorrect data");
+//     } else {
+//         console.log(`Area of the triangle: ${area.toFixed(3)}`);
 
-        const isRightTriangle = (sideA ** 2 + sideB ** 2 === sideC ** 2) ||
-                                (sideA ** 2 + sideC ** 2 === sideB ** 2) ||
-                                (sideB ** 2 + sideC ** 2 === sideA ** 2);
+//         const isRightTriangle = (sideA ** 2 + sideB ** 2 === sideC ** 2) ||
+//                                 (sideA ** 2 + sideC ** 2 === sideB ** 2) ||
+//                                 (sideB ** 2 + sideC ** 2 === sideA ** 2);
 
-        if (isRightTriangle) {
-            console.log("The triangle is a right triangle.");
-        } else {
-            console.log("The triangle is not a right triangle.");
-        }
-    }
-}
+//         if (isRightTriangle) {
+//             console.log("The triangle is a right triangle.");
+//         } else {
+//             console.log("The triangle is not a right triangle.");
+//         }
+//     }
+// }
